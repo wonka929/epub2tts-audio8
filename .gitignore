@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Session / local notes
+session-*.md
+
+# Generated intermediate audio
+part*.wav
+pgraph*.wav
+pgraph*_chunk*.wav
+FFMETADATAFILE
+filelist.txt
+
+# Output audiobooks
+*.m4b
+*.m4a
+
+# Sample data and voice clips (kept local, not in the repo)
+epub2tts_audio8/*.epub
+epub2tts_audio8/*.opus
+epub2tts_audio8/*.png
+epub2tts_audio8/*.txt
+epub2tts_audio8/*.wav

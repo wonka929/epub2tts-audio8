@@ -1,0 +1,31 @@
+# Core TTS dependency
+transformers>=4.57.0,<5
+huggingface_hub
+safetensors
+wheel
+
+# EPUB and text processing
+beautifulsoup4
+ebooklib
+lxml
+nltk
+
+# Audio processing
+mutagen
+pydub
+soundfile
+librosa
+torchaudio
+
+# NOTE: on older GPUs (Maxwell/Pascal) the default torchaudio installs torch
+# with CUDA 13 builds that don't support the GPU. Install instead:
+#   pip install torch==2.6.0+cu124 torchaudio==2.6.0+cu124 --index-url https://download.pytorch.org/whl/cu124
+
+# Utilities
+numpy
+pillow
+tqdm
+setuptools==79.0.1
+
+# Optional: auto-transcribe reference clips for voice cloning
+faster-whisper
