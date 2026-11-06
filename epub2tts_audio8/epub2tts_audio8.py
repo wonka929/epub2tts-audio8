@@ -649,7 +649,7 @@ def read_book(book_contents, voice_prompt, legacy_speaker, notitles, language, f
             )
 
     print("Loading Audio8 model (lazy import to avoid import-time dependency issues)")
-    model_id = "Audio8/Audio8-TTS-Preview-0.6b"
+    model_id = "Edge0/Audio8-TTS-Realistic-Air"
     try:
         from transformers import AutoModel, AutoProcessor
 
